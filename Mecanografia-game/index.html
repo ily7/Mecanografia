@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mecanografia</title>
 </head>
+<style>
+    :root{
+        color-scheme: light dark;
+        --green: #00b755;
+        --yellow: #daaf38;
+        --red: #ca4754;
+        --black: #222;
+        --gray: #999;
+    }
+    body{
+        background: var(--black);
+        font-family: Menlo,monospace;
+        display: grid;
+        justify-content: center;
+        padding: 32px;
+        margin-top: 32px;
+        padding: 16px;
+    }
+</style>
 <body>
+    <main>
+        <section id="game">
+            <time>30</time>
+            <p></p>
+            <input autofocus>
+        </section>
+    </main>
+    
     
 </body>
-</html>
+
+<script>
+    const $time = document.querySelector('time')
+    const $paragraph = document.querySelector('p')
+    const $input = document.querySelector('input')
+
+    const INITIAL_TIME = 30;
+
+    const TEXT = `este es un texto de prueba para mi juego esto 
+    es solo una prueba que prueba mi imaginacion para imaginar 
+    algo para escribir pero simplemente no se que decir jaja
+    que loco no que esto sea lo unico que se me ocurra
+    
+`;
+
+
+
+
+</script>
+</html> 
